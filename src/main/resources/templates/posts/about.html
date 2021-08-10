@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:include="partials.html::head('Login Here')" >
+    <meta charset="UTF-8" />
+    <title>Log In</title>
+</head>
+<body>
+<div id="wrap">
+    <div id="main">
+        <div th:replace="partials.html::navbar">You shouldn't see this.</div>
+
+
+        <div class="container-md text-start">
+            <h1 class="text-center">Genesis of the Blogging App</h1>
+            <p>This blogging app was originally a Codeup project - a free-standing, multi-user blogging application,
+            written and implemented in SpringBoot and Java.</p>
+            <p>I've repurposed it a bit - both to host my vanity site but also to allow <em>me</em> to blog on this site.</p>
+            <p>This is, of course, both better and worse than what it originally was. It's quite a bit more optimized this way,
+            quite a bit faster, and quite a bit more stylish than it originally started out.</p>
+            <p>But it's also quite a bit less robust than it originally was - again, you can no longer create an account as a new user
+            and begin blogging - I've locked up the functionality that would allow anyone else to use this app.</p>
+            <p>All of which to say - if you see any vestigal bits laying around, that's why. And if you wondered why I didn't
+            build more functionality on to it - that's also why.</p>
+
+    </div>
+</div>
+</div>
+<footer th:replace="partials.html::footer"></footer>
+
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head th:replace="partials.html :: head('Thank you')">
+        <meta charset="UTF-8" />
+        <title>Home</title>
+    </head>
+
+
+<body>
+<div id="wrap">
+    <div id="main">
+<link rel="stylesheet" href="/css/thankyou.css">
+<nav th:replace="partials.html :: navbar"></nav>
+
+
+<!--<div class="jumbotron jumbotron-fluid p-0 bg-dark branson">-->
+<!--    <div class="container quote">-->
+
+<!--        <p class="lead text text-white">"Hiring the right people takes time, the right questions, and a healthy dose of curiosity. What do you think is the most important factor when building your team? <h1 class="display-4 text text-white">For us, it’s personality."</h1></p>-->
+<!--        <h4 class="text-right text-white">Richard Branson</h4>-->
+<!--    </div>-->
+<!--</div>-->
+<br><div class="container">
+<h1>Thank you for getting in touch with me - I'll be back with you as soon as possible. In the meantime feel free to have a look around.</h1><br>
+<h3>Social Media</h3>
+<uL><div class="col-12 d-flex justify-content-between m-1 p-1 text-center">
+    <li><a href="https://www.linkedin.com/in/ted-mccormick/"><i class="fab fa-linkedin"></i>LinkedIn</a></li>
+    <li><a href="https://github.com/edwardmccormick"><i class="fab fa-github-square"></i>Github</a></li>
+    <li><a href="https://twitter.com/ted_codes"><i class="fab fa-twitter-square"></i>Twitter </a></li>
+    <li><i class="fas fa-phone"></i>Phone: 210-823-6753</li>
+    <li><a href="http://tedmccormick.familyds.com/"><i class="fas fa-laptop-code">Vanity Site/Interactive Portfolio</i></a></li>
+</div>
+</uL>
+    </div>
+</div>
+</div>
+<footer th:replace="partials.html::footer"></footer>
+</body>
+</html>

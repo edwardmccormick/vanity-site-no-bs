@@ -1,0 +1,7 @@
+let mapBoxToken = "pk.eyJ1IjoidGVkbWNjb3JtaWNrIiwiYSI6ImNranJnbDE0bDFyZmUyeHF1NzVoNnd1NWkifQ.03h_9qrOMOxm7kiPsVyMXA";
+
+let OPEN_WEATHER_APPID = "3e4457c01bfe8779398b3e7e3ea21c27"
+
+const ombdV4key = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiYTZkMmFkMzU2NzcwMmY1YWIxMzVkYTYzZmU1N2E3OCIsInN1YiI6IjYwMDI0NWIxN2Q1ZGI1MDAzY2NlODQ5OCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.NxJsyjIqJnvDp-FZsvTNJyONU8DgXZJDzxlXMYgdqYs"
+
+const omdbV3key = "ba6d2ad3567702f5ab135da63fe57a78"

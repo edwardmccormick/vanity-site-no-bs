@@ -1,0 +1,139 @@
+:root {
+    --white: #FEFFFE;
+    --lavendar: #E9EBF8;
+    --cadetblue: #B4B8C5;
+    --quicksilver: #A5A299;
+    --taupe: #8D818C;
+}
+
+a {
+    color: var(--taupe);
+}
+a:hover {
+    color: var(--cadetblue);
+}
+
+a:visited {
+    color: var(--quicksilver)
+}
+
+body {
+    background-color: var(--white);
+}
+
+.container {
+    border-bottom: 2rem;
+}
+
+.btn {
+    background-color: var(--taupe);
+    border-color: var(--white);
+}
+
+.btn-outline-success{
+    color: var(--white);
+}
+
+.btn:hover, .btn:active, .btn:focus, .btn:visited {
+    background-color: var(--quicksilver);
+    border-color: var(--taupe);
+}
+
+nav {
+    /*color: white;*/
+    background-color: skyblue;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255 , 255, 255, 0.3)),
+    url("../img/sky.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    margin-bottom: 2rem;
+}
+
+footer {
+    color: white;
+    background-color: navy;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0 , 0, 0, 0.3)),
+    url("../img/waterbackground.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    margin-top: 2rem;
+}
+
+#brand {
+    border-radius: 50%;
+    height: 75px;
+    width: auto;
+}
+
+.fa-linkedin {
+    color: #0a66c2
+}
+
+.fa-github-square {
+    color: black;
+}
+
+.fa-laptop-code {
+    color: black;
+}
+
+.fa-envelope-open {
+    color: #c5221e;
+}
+
+.fa-lock {
+    color: #505061;
+}
+
+.fa-file-pdf {
+    color: #ad0b00
+}
+
+.fa-laptop-code {
+    color: black
+}
+
+.fa-twitter-square {
+    color: #1da1f2;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: aliceblue;
+}
+
+html, body {
+    height: 100%;
+}
+
+#wrap {
+    min-height: calc(100% - 202px);
+}
+
+#main {
+    overflow:auto;
+    /*padding-bottom:160px; !* this needs to be bigger than footer height*!*/
+}
+
+#devicons {
+    /*background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255 , 255, 255, 0.4));*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+/*.builtwith {*/
+/*    border-radius: 20px;*/
+/*    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255 , 255, 255, 0.7));*/
+/*}*/
+
+footer {
+    position: relative;
+    margin-top: -202px; /* negative value of footer height */
+    height: 202px;
+    clear:both;
+    /*padding-top:20px;*/
+}
