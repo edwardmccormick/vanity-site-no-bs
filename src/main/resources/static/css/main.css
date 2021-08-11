@@ -50,6 +50,12 @@ nav {
     margin-bottom: 2rem;
 }
 
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
 footer {
     color: white;
     background-color: navy;
